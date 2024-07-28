@@ -1,0 +1,60 @@
+[data-testid=metric-container] {
+    box-shadow: 0 0 4px #686664;
+    padding: 10px;
+}
+
+.plot-container>div {
+    box-shadow: 0 0 2px #070505;
+    padding: 5px;
+    border-color: #000000;
+}
+
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+    color-scheme: #000000;
+}
+
+.sidebar-content {
+    color: white;
+}
+
+[data-testid=stSidebar] {
+    color: white;
+}
+
+
+/* Change the sidebar menu color to yellow */
+
+.stSidebar .stSidebarItem {
+    background-color: #ffff00;
+    /* Change the background color */
+    color: #333;
+    /* Change the text color */
+    border-radius: 5px;
+    /* Add rounded corners to the menu items */
+    padding: 5px 10px;
+    /* Add some padding to the menu items */
+}
+
+.stSidebar .stSidebarItem:hover {
+    background-color: #ffcc00;
+    /* Change the background color on hover */
+}
+
+.stSidebar .stSidebarItem.stSidebarItemSelected {
+    background-color: #ff9900;
+    /* Change the background color of the selected menu item */
+}
+
+
+/* Add the following code to your existing style.css file */
+
+.sidebar-content {
+    color: white;
+}
+
+[data-testid=stSidebar] {
+    color: white;
+}
